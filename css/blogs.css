@@ -21,6 +21,8 @@
   line-height: 1.2;
   font-family: 'NeueMachina';
   font-weight: 700;
+  color: #ffffffe7;
+  
 }
 .snb span{
   color: #ff490c;
@@ -240,6 +242,7 @@ input[name="tab_item"]{
     margin-right: 12px;
     font-size: 14px;
     padding: 12px 0px;
+    -webkit-text-stroke: 0.5px #fff;
   }
   
   

@@ -3,34 +3,62 @@
     margin-top: 72px;
     font-family: pretendard;
     color: #333333;
+    justify-content: space-around;
 }
 .inner_contents{
     width: 100%;
+    max-width: 960px;
 }
 .career-title{
     margin: 32px 0px;
     font-size: 32px;
     font-weight: 700;
+    color: #ffffffe7;
 }
 .career-description{
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
-    color: #333333;
+    color: #ffffffe7;
+    padding: 24px;
+    background-color: #222;
+    border-radius: 12px;
+    margin-top: 24px;
 }
 .career-link{
-    line-height: 1.8;   
+    line-height: 1.8;
+    color: #ffffffe7;   
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    margin: 24px 0px 16px 0px;
+}
+.career-link img{
+    width: 16px;
+    margin-right: 8px;
 }
 .career-link_btn{
     font-size: 16px;
-    margin-right: 24px;
     font-weight: 300;
-    text-decoration: underline;
-    color: rgba(0,0,0,0.6);
+    color: #ffffffe7;   
     transition: 200ms all;
 }
-.career-link_btn:hover{
-    color: rgba(0,0,0,1);
+.career-link li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    margin-right: 12px;
+    padding: 16px;
+    background-color: #333;
+    border-radius: 12px;
+    transition: 120ms all;
+}
+.career-link li:hover{
+    background-color: #444;
 }
 .corpimg{
     /* background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQEXgJtrgKxHhQ/profile-displayphoto-shrink_400_400/0/1599724749822?e=1643241600&v=beta&t=9Po0n0lJFwFFYNTaWQHo6AR_XZJkHz3Cv-0X4gw-3IY); */
@@ -43,30 +71,31 @@
     border-radius: 16px;
 }
 .corp-title{
-    margin: 48px 0px 24px 0px;
+    margin: 0px 0px 24px 0px;
     font-size: 19px;
     font-weight: 700;
-    color: #333333;
+    color: #ffffffe7;   
 }
 .corp_description{
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
-    color: #333333;
+    color: #ffffffe7;   
 }
 
 .corp-job{
     margin: 32px 0px;
     font-size: 16px;
     font-weight: 300;
+    color: #ffffffe7;  
 }
 
 .corp-job_description{
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
-    margin-bottom: 48px; 
-    color: #333333; 
+    margin-bottom: 24px; 
+    color: #ffffffe7;   
 }
 @media screen and (max-width:1280px) {
     .career_contents{
@@ -74,6 +103,13 @@
     }
   }
 @media screen and (max-width:768px) {
+.career-link{
+    display: block;
+}
+.career-link li{
+    padding: 12px 0px;
+    margin-bottom: 12px;
+}
 .career_contents{
     margin-top: 60px;
 }
