@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'NeueMachina';
+    font-weight: 700;
+    src: url('NeueMachinaBold'),
+    url('../fonts/NeueMachina-Bold.woff2') format('woff2'),
+    url('../fonts/NeueMachina-Bold.woff') format('woff'),
+    url('../fonts/NeueMachina-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    font-weight: 400;
+    src: url('NeueMachinaRegular'),
+    url('../fonts/NeueMachina-Regular.woff2') format('woff2'),
+    url('../fonts/NeueMachina-Regular.woff') format('woff'),
+    url('../fonts/NeueMachina-Regular.ttf') format('truetype');
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 700;
+    src: url('NeueMachinaRegular'),
+    url('../fonts/Oswald-Bold.woff2') format('woff2')
+}
+
