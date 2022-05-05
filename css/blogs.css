@@ -259,7 +259,7 @@ input[name="tab_item"]{
     flex-direction: column;
   }
   .item-textarea_title_child{
-    font-size: 21px;
+    font-size: 18px;
   }
   .item-textarea{
     width: 100%;
