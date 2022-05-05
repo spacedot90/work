@@ -72,7 +72,7 @@
 }
 .corp-title{
     margin: 0px 0px 24px 0px;
-    font-size: 19px;
+    font-size: 24px;
     font-weight: 700;
     color: #ffffffe7;   
 }
@@ -96,6 +96,7 @@
     line-height: 1.8;
     margin-bottom: 24px; 
     color: #ffffffe7;   
+    padding-left: 24px;
 }
 @media screen and (max-width:1280px) {
     .career_contents{
