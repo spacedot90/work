@@ -260,7 +260,7 @@ h2{
         margin: 16px 0px;
     }
       .card_modules_img{
-        height: 360px;
+        height: 100%;
       }
       .contents_title{
         margin-top: 24px;
