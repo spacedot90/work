@@ -181,10 +181,10 @@
   }
   
   .mobile_menu.is-active{
+    margin-top: -64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 24px;
   }
 
   .mobile_menu a:hover{

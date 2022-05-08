@@ -240,7 +240,7 @@ input[name="tab_item"]{
   }
   .tab_item{
     margin-right: 12px;
-    font-size: 14px;
+    font-size: 17px;
     padding: 12px 0px;
     -webkit-text-stroke: 0.5px #fff;
   }
