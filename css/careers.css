@@ -10,8 +10,8 @@
     max-width: 960px;
 }
 .career-title{
-    margin: 32px 0px 8px 0px;
-    font-size: 32px;
+    margin: 32px 0px 4px 0px;
+    font-size: 27px;
     font-weight: 700;
     color: #ffffffe7;
 }
@@ -19,11 +19,11 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
-    color: #ffffffe7;
+    color: #ffffffab;
     padding: 24px;
-    background-color: #222;
+    background-color: #232428;
     border-radius: 12px;
-    margin-top: 24px;
+    margin-top: 20px;
 }
 .career-link{
     line-height: 1.8;
@@ -53,12 +53,12 @@
     cursor: pointer;
     margin-right: 12px;
     padding: 16px;
-    background-color: #333;
+    background-color: #323339;
     border-radius: 12px;
     transition: 120ms all;
 }
 .career-link li:hover{
-    background-color: #444;
+    background-color: #3e4047;
 }
 .corpimg{
     /* background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQEXgJtrgKxHhQ/profile-displayphoto-shrink_400_400/0/1599724749822?e=1643241600&v=beta&t=9Po0n0lJFwFFYNTaWQHo6AR_XZJkHz3Cv-0X4gw-3IY); */
@@ -72,7 +72,7 @@
 }
 .corp-title{
     margin: 0px 0px 24px 0px;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 700;
     color: #ffffffe7;   
 }
@@ -80,14 +80,14 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
-    color: #ffffffe7;   
+    color: #ffffffab; 
 }
 
 .corp-job{
     margin: 32px 0px;
     font-size: 16px;
     font-weight: 300;
-    color: #ffffffe7;  
+    color: #ffffffe7; 
 }
 
 .corp-job_description{
@@ -95,7 +95,7 @@
     font-weight: 300;
     line-height: 1.8;
     margin-bottom: 24px; 
-    color: #ffffffe7;   
+    color: #ffffffab; 
     padding-left: 24px;
 }
 @media screen and (max-width:1280px) {
