@@ -71,9 +71,10 @@
     border-radius: 16px;
 }
 .corp-title{
-    margin: 0px 0px 24px 0px;
-    font-size: 21px;
+    margin: 12px 0px 24px 0px;
+    font-size: 17px;
     font-weight: 700;
+    line-height: 1.5;
     color: #ffffffe7;   
 }
 .corp_description{
