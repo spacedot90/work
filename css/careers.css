@@ -72,7 +72,7 @@
 }
 .corp-title{
     margin: 12px 0px 24px 0px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.5;
     color: #ffffffe7;   
@@ -87,7 +87,7 @@
 .corp-job{
     margin: 32px 0px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     color: #ffffffe7; 
 }
 
