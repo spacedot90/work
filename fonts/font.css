@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: 'NeueMachina';
+    font-family: 'NeueMachina',sans-serif;
     font-weight: 700;
     src: url('NeueMachinaBold'),
     url('../fonts/NeueMachina-Bold.woff2') format('woff2'),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'NeueMachina';
+    font-family: 'NeueMachina',sans-serif;
     font-weight: 400;
     src: url('NeueMachinaRegular'),
     url('../fonts/NeueMachina-Regular.woff2') format('woff2'),
